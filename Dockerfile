@@ -1,5 +1,5 @@
 # Get OS image
-FROM ubuntu:22.04
+FROM ubuntu:latest
 # Author
 LABEL maintainer="Ashish Kumar <ashishkrb7@gmail.com>"
 # Install tools required for project
