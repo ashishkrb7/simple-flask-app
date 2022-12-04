@@ -8,7 +8,7 @@ docker build . -t flaskapp:v1
 
 # How to run docker container
 ```docker
-docker run --name my_app -v path_of_folder_containing_image flaskapp:v1
+docker run --name my_app -v path_of_folder_containing_image -p 5000:5000 flaskapp:v1
 ```
 
 # Folder Architecture
